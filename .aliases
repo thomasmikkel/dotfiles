@@ -1,0 +1,47 @@
+#alias composer='php composer'
+alias phpcs='php phpcs'
+alias doc='docker-compose'
+alias dphp="docker-compose exec php"
+alias dep="docker-compose exec php"
+alias dem="docker-compose exec mysql"
+alias demb="docker-compose exec mysql bash"
+alias uli="docker-compose exec php drush uli --uri=http://localhost"
+alias sites="cd ~/sites"
+#alias composer='/usr/local/bin/composer.phar'
+alias phpcs="~/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcs"
+alias c="clear"
+alias cd..='cd ..'
+alias ..='cd ..'
+alias depdrushkdk='docker-compose exec php drush --uri=http://www.kristeligt-dagblad.dk.test.k.dk'
+alias drushkdk='drush --uri=http://www.kristeligt-dagblad.dk.test.k.dk'
+
+# Nodejs
+alias node="nodejs"
+
+# Git
+alias gco="git checkout"
+alias gst="git status"
+alias gb="git branch"
+
+# Symfony
+alias console='dep ./bin/console'
+
+## PHPUnit
+alias phpunit='vendor/bin/phpunit'
+
+# Symfony
+alias ccc="console cache:clear"
+alias cs="console "
+
+# ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Platform.sh cli
+alias pl='platform'
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+alias postman='/home/tmj/Programmer/Postman/app/Postman'
